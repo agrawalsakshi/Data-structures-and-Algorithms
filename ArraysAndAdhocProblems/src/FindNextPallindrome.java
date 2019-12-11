@@ -1,6 +1,3 @@
-import java.io.BufferedInputStream;
-import java.util.Scanner;
-
 public class FindNextPallindrome {
 
 	public static void main(String[] args) {

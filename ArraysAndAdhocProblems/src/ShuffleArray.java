@@ -13,7 +13,8 @@ public class ShuffleArray {
     int [] arr = {1,3,5,7,2,6,9,4,8};
     
    int [] res= randomise(arr);
-    
+    //1 8 5 2 9 3 7 6 4 
+   //5 4 9 2 1 7 6 3 8
    for(int i=0;i<res.length;i++){
 	   System.out.print(res[i]+" ");
    }
@@ -22,12 +23,13 @@ public class ShuffleArray {
 
 	public static int[] randomise(int[] arr){
 		int k=0;
+		
 		for(int i=arr.length-1;i>=1;i--){
-			int length=arr.length-k;
+			///int length=arr.length-k;
 			Random rand = new Random();
 			//int j= (int) Math.random()*length;
 			int j= rand.nextInt(i+1);
-			k++;
+			//k++;
 			swap(i,j,arr);
 		}
 		

@@ -28,8 +28,8 @@ public class CompressAndDecompressString {
 			
 		}
 		System.out.println(sb.toString());
-		//String str=decompress(sb.toString());
-		//System.out.println(str);
+		String str=decompress(sb.toString());
+		System.out.println(str);
 	}
 
 	

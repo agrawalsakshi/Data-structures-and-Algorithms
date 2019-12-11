@@ -66,8 +66,6 @@ public class AreaUnderHistogram {
 		int i=0;
 		   int j=0;
 		   int count=0;
-		   int maxCount=Integer.MIN_VALUE;
-		   int value=0;
 		   int area=0; int MaxArea=0;
 		   
 		   for( i=0;i<arr.length;i++){
